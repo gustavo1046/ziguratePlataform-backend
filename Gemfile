@@ -17,6 +17,9 @@ gem "puma", ">= 5.0"
 # Postgres adapter for Active Record 
 gem 'pg', '~> 1.2'
 
+# to deal with composite primary keys
+gem 'composite_primary_keys'
+
 # dot-env to store credentials
 gem 'dotenv-rails', groups: [:development, :test]
 
